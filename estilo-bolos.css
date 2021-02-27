@@ -1,0 +1,142 @@
+/* inicio header */
+
+body{
+    font-family:'Montserrat' , sans-serif;
+    background: #fefefe;
+}
+h1{
+    margin: 10px 0;
+}
+.linklogo{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 9%;
+}
+.caixa{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin:auto;
+    position: relative;
+    background: rgb(240, 79, 240);
+    border-radius: 15px;
+}
+.todosOsItens{
+    display: flex;
+    width: 45%;
+}
+a:first-child{
+    border-radius: 15px 0px 0px 15px;
+}
+.itens{
+    margin: 0 15px 0 0;
+    font-weight: bold;
+    font-size: large;
+    margin: 20px 40px;
+}
+.todosOsItens a{
+    border-bottom: 4px solid  rgb(240, 79, 240);
+    text-decoration: none;
+    color: black;
+}
+.todosOsItens a {
+    transition: 0.6s;
+}
+.todosOsItens a:hover{
+    background: rgb(209, 58, 209);
+    color: rgb(53, 53, 53);
+    border-bottom: 4px solid rgb(214, 205, 214) ;
+}
+.pesquisabotao{
+    display: flex;
+    margin-right: 40px;
+    height: 62px;
+    align-items: center;
+}
+.pesquisar{
+    border: none;
+}
+.pesquisar{
+    align-self: center;
+    padding-left: 20px;
+    padding: 10px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+}
+.botao:hover{
+    cursor: pointer;
+}
+.botao{
+    height:30px;
+    width: 35px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+
+/* fim header */
+
+/* inicio main */
+
+main{
+    width: 90%;
+    margin:0 auto;
+    position: relative;
+}
+.escadinhas{
+    width: 45%;
+    margin-top: 30px;
+    margin-left: 60px;
+    display: inline-block;
+}
+.conjunto1,.conjunto2,.conjunto3,.conjunto4{
+    width: 212px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.conjunto2, .conjunto4{
+    position:relative;
+    left: 17em;
+    bottom: 5em;
+}
+.conjunto3{
+    position: relative;
+    bottom: 10em;
+}
+.conjunto4{
+    position: relative;
+    bottom: 16em;
+}
+.img1,.img2,.img3,.img4{
+    border: 6px solid rgb(153, 76, 224);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.img-desc{
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: italic;
+}
+.titulo{
+    cursor:default;
+    font-family:'Dancing Script',cursive ;
+    margin: 30px 20px;
+}
+.texto{
+    background: violet;
+    padding: 0 20px 20px 20px;
+    width: 40%;
+    margin-top: 30px;
+    border-radius: 15px;
+    position: absolute;
+    display:inline-block;
+    right: 0px;
+}
+.p1{
+    margin: 0 0 15px 0;
+}
